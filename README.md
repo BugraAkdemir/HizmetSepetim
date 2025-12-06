@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/" width="160" alt="logo">
+  <img src="./screenshots/logo.png" width="160" alt="logo">
 </p>
 
 <h1 align="center">HizmetSepetim</h1>
