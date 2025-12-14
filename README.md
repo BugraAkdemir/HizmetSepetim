@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/version-2.9.4-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/platform-Android-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/backend-Go Lang-00ADD8?style=for-the-badge">
   <img src="https://img.shields.io/badge/ui-Jetpack%20Compose-4285F4?style=for-the-badge">
