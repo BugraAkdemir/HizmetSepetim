@@ -123,9 +123,9 @@ Bu örnekler, proje teknolojilerini küçük bağımsız test projeleri şeklind
 ---
 
 <p align="center">
-  <b>HizmetSepetim</b> • Modern Hizmet Marketplace Platformu
+  <b>HizmetSepetim </b> • Modern Hizmet Marketplace Platformu
 </p>
 
 ## 📄 License
 This project is protected under the CC BY-NC-ND 4.0 License.  
-© 2025 Buğra Akdemir. All Rights Reserved.
+© 2025 Buğra Akdemir.. All Rights Reserved.
