@@ -46,6 +46,8 @@ Bu repo, uygulamanın **public vitrini** olarak hazırlanmıştır.
 
 ---
 
+sa
+
 # 📦 APK İndir (Stable Releases)
 
 APK dosyalarına GitHub Releases üzerinden ulaşabilirsiniz:
