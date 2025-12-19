@@ -1,132 +1,157 @@
 <p align="center">
-  <img src="./screenshots/logo.png" width="160" alt="logo">
+  <img src="./screenshots/logo.png" width="160" alt="HizmetSepetim Logo">
 </p>
 
 <h1 align="center">HizmetSepetim</h1>
+
 <p align="center">
-  Modern hizmet sipariş platformu • Jetpack Compose • Go API • Admin Panel
+  Modern hizmet marketplace platformu<br>
+  <b>Android • iOS • Backend • Admin</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-2.9.4-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/platform-Android-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/backend-Go Lang-00ADD8?style=for-the-badge">
   <img src="https://img.shields.io/badge/ui-Jetpack%20Compose-4285F4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/backend-Go-00ADD8?style=for-the-badge">
 </p>
 
 ---
 
-# 🚀 Proje Hakkında
-**HizmetSepetim**, kullanıcıların temizlik, bakım, tamir, kişisel hizmetler ve daha fazlası için profesyonellerden hızlı şekilde hizmet almasını sağlayan bir marketplace platformudur.
+## 🚀 Proje Hakkında
 
-Bu repo, uygulamanın **public vitrini** olarak hazırlanmıştır.
+**HizmetSepetim**, kullanıcıların temizlik, bakım, tamir, kişisel hizmetler ve benzeri birçok alanda profesyonellerden hızlı ve güvenli şekilde hizmet almasını sağlayan **modern bir marketplace platformudur**.
+
+Bu repository, HizmetSepetim’in **public showroom / vitrin deposu** olarak hazırlanmıştır.
+
+> 🎯 Amaç:  
+> Projenin teknik vizyonunu, mimarisini ve ürün seviyesini **şeffaf ama kontrollü** şekilde sergilemek.
+
+---
+
+## 🧩 Bu Repo Ne İçerir?
+
+Bu repo **çekirdek kaynak kodları içermez**.
 
 ### İçerik:
+- ✔ Uygulamaya ait ekran görüntüleri
 - ✔ Stabil APK indirme bağlantıları (GitHub Releases)
-- ✔ Uygulamadan ekran görüntüleri
 - ✔ Resmi sürüm notları (version-history)
-- ✔ Teknik mimari & dokümantasyon (docs/)
-- ✔ Showroom amaçlı açıklamalar
+- ✔ Teknik mimari açıklamalar
+- ✔ Dokümantasyon & diagramlar
+- ✔ Ürün ve teknoloji vitrin açıklamaları
 
-> ⚠️ Uygulamanın çekirdek kodları (API, Admin Panel, Android App) güvenlik nedeniyle **private** depolardadır.
-
----
-sa
-# 📱 Mobil Uygulama (Android – Jetpack Compose)
-
-### Özellikler:
-- Modern 2025 Material 3 tasarımı  
-- Randevu sistemi (tarih + saat seçimi)  
-- Ek hizmet (addon) sistemi  
-- Sipariş yönetimi  
-- Adres yönetimi  
-- Kullanıcı destek/chat modülü  
-- Bildirim altyapısı  
-- Optimize edilmiş API bağlantıları  
+> ⚠️ Güvenlik ve ticari sebeplerle:
+> - Android (Kotlin) uygulama kodları  
+> - Backend (Go API)  
+> - Admin panel  
+> **private repository** olarak tutulmaktadır.
 
 ---
 
+## 📱 Mobil Uygulama
 
-# 📦 APK İndir (Stable Releases)
+### Android (Jetpack Compose)
+- Modern Material 3 (2025 uyumlu)
+- Randevu & zamanlama sistemi
+- Ek hizmet (addon) yapısı
+- Sipariş & durum yönetimi
+- Adres yönetimi
+- Kullanıcı destek / chat sistemi
+- Bildirim altyapısı
+- Optimize edilmiş API kullanımı
 
-APK dosyalarına GitHub Releases üzerinden ulaşabilirsiniz:
+> ℹ️ Android için ilk Play Store sürümü **native Kotlin (Jetpack Compose)** ile yayınlanmaktadır.
+
+---
+
+## 🍏 iOS & Cross-Platform
+
+- Flutter ile geliştirilen **ayrı bir public client repository** bulunmaktadır
+- Bu yapı:
+  - iOS sürümü
+  - Uzun vadede Android + iOS birleşik client
+  için temel oluşturmaktadır
+
+👉 Flutter client repo:  
+**https://github.com/BugraAkdemir/HizmetSepetimFlutter**
+
+---
+
+## 📦 APK İndir (Stable Releases)
+
+Stabil ve debug APK dosyalarına GitHub Releases üzerinden ulaşabilirsiniz:
 
 👉 **https://github.com/USERNAME/HizmetSepetim/releases**
 
-*(Stable Release ve Debug APK burada yer alır.)*
-
 ---
 
+## 🛠 Teknik Mimari (Özet)
 
-
----
-
-# 🛠 Mimari
-
-### Kullanılan Teknolojiler:
 | Katman | Teknoloji |
-|--------|-----------|
-| Mobil | Jetpack Compose, Material 3, MVVM, Retrofit |
-| API | Go Lang, MySQL, JSON endpoints |
-| Yönetim Paneli | PHP, HTML, JS, Admin Template |
-| Sunucu | Ubuntu 22.04, Apache2, systemd, MariaDB |
-
-
-
+|------|-----------|
+| Android | Jetpack Compose, Material 3, MVVM |
+| Backend | Go Lang, REST API, MySQL |
+| Admin Panel | PHP, HTML, JS |
+| Sunucu | Ubuntu 22.04, Apache2, systemd |
 
 ---
 
-# 🧾 Sürüm Notları
+## 🧾 Sürüm Notları
 
-Tüm sürüm notları `version-history/` klasöründedir.
+Tüm sürüm notları `version-history/` klasöründe tutulur.
 
-Örn:
-- `/version-history/v1.0.0.md`
-
-Bu dosyada:
-- Öne çıkan özellikler  
-- Hata düzeltmeleri  
-- Teknik değişiklikler  
-- API iyileştirmeleri  
-bulunur.
+Her sürüm dosyası:
+- Yeni özellikler
+- İyileştirmeler
+- Hata düzeltmeleri
+- Teknik değişiklikler
+şeklinde detaylandırılmıştır.
 
 ---
 
-# 📚 Dokümantasyon
+## 📚 Dokümantasyon
 
 `/docs` klasöründe:
-
-- API örnek endpoint’ler  
-- Data-flow diagram  
-- UI component yapısı  
-- Mimari açıklamalar  
+- API örnekleri
+- Data-flow diagramları
+- UI bileşen yapıları
+- Mimari karar açıklamaları
+bulunmaktadır.
 
 ---
 
-# 🧩 Ek Showroom Reposu (mini örnek projeler)
+## 🧪 Mini Showroom Projeleri (Yakında)
 
-Aşağıdaki küçük public projeler yakında paylaşılacaktır:
+HizmetSepetim’de kullanılan teknolojileri küçük, bağımsız örneklerle göstermek için:
 
 - **JetpackComposeLogin**
 - **GoLoginAPIExample**
 - **SupportChatUIDemo**
 
-Bu örnekler, proje teknolojilerini küçük bağımsız test projeleri şeklinde göstermeyi amaçlar.
+projeleri public olarak paylaşılacaktır.
 
 ---
 
-# 👨‍💻 Geliştirici  
+## 👨‍💻 Geliştirici
+
 **Buğra Akdemir**  
 - Full-Stack Developer  
-- Jetpack Compose • Go Lang • PHP • MySQL  
-- Genç girişimci & HizmetSepetim kurucusu  
+- Jetpack Compose • Flutter • Go • PHP • MySQL  
+- Ürün odaklı geliştirme & açık kaynak tutkusu
 
 ---
 
 <p align="center">
-  <b>HizmetSepetim </b> • Modern Hizmet Marketplace Platformu
+  <b>HizmetSepetim</b><br>
+  Modern Hizmet Marketplace Platformu
 </p>
 
+---
+
 ## 📄 License
-This project is protected under the CC BY-NC-ND 4.0 License.  
-© 2025 Buğra Akdemir.. All Rights Reserved.
+
+This repository is licensed under **CC BY-NC-ND 4.0**.  
+Commercial use and redistribution of proprietary components are not permitted.
+
+© 2025 Buğra Akdemir. All rights reserved.
