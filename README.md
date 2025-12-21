@@ -20,9 +20,23 @@
 
 ## 🚀 Proje Hakkında
 
+<<<<<<< HEAD
+Bu repo, uygulamanın **public vitrini** olarak hazırlanmıştır. <br> <br>
+Version Notları İçin <a href="http://92.249.61.58/docs">Docks</a> Bakabilirsiniz.
+=======
 **HizmetSepetim**, kullanıcıların temizlik, bakım, tamir, kişisel hizmetler ve benzeri birçok alanda profesyonellerden hızlı ve güvenli şekilde hizmet almasını sağlayan **modern bir marketplace platformudur**.
 
-Bu repo, uygulamanın **public vitrini** olarak hazırlanmıştır.
+Bu repository, HizmetSepetim’in **public showroom / vitrin deposu** olarak hazırlanmıştır.
+
+> 🎯 Amaç:  
+> Projenin teknik vizyonunu, mimarisini ve ürün seviyesini **şeffaf ama kontrollü** şekilde sergilemek.
+
+---
+
+## 🧩 Bu Repo Ne İçerir?
+
+Bu repo **çekirdek kaynak kodları içermez**.
+
 
 ### İçerik:
 - ✔ Uygulamaya ait ekran görüntüleri
