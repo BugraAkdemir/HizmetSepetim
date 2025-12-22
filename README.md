@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/ui-Jetpack%20Compose-4285F4?style=for-the-badge">
 </p>
 
----
+--
 
 # 🚀 Proje Hakkında
 **HizmetSepetim**, kullanıcıların temizlik, bakım, tamir, kişisel hizmetler ve daha fazlası için profesyonellerden hızlı şekilde hizmet almasını sağlayan bir marketplace platformudur.
@@ -31,7 +31,7 @@ Version Notları İçin <a href="http://92.249.61.58/docs">Docks</a> Bakabilirsi
 
 > ⚠️ Uygulamanın çekirdek kodları (API, Admin Panel, Android App) güvenlik nedeniyle **private** depolardadır.
 
----
+--
 
 # 📱 Mobil Uygulama (Android – Jetpack Compose)
 
